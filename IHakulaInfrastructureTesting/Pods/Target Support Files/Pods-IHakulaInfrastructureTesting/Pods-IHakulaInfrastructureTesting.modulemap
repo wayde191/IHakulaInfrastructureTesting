@@ -1,0 +1,6 @@
+framework module Pods_IHakulaInfrastructureTesting {
+  umbrella header "Pods-IHakulaInfrastructureTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

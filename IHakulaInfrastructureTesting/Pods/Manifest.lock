@@ -1,0 +1,12 @@
+PODS:
+  - IHakulaInfrastructure (0.1.0):
+    - IHakulaInfrastructure/Common (= 0.1.0)
+  - IHakulaInfrastructure/Common (0.1.0)
+
+DEPENDENCIES:
+  - IHakulaInfrastructure (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  IHakulaInfrastructure: 01ce2f6c5d433fe6f921499f005a489b2f81d6ee
+
+COCOAPODS: 0.38.2

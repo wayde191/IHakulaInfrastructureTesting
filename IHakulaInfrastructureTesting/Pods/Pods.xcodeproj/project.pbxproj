@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FC93D82CBBD927E4D291C532C6120E /* iHCommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 690C59114B36C3A5F3F325DA8DCA8C65 /* iHCommonFunctions.m */; };
+		06DA1C5D8B82638D50CCA4E770CB57AF /* Pods-IHakulaInfrastructureTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 257391317A54B8455E86CC110633DF3C /* Pods-IHakulaInfrastructureTesting-dummy.m */; };
+		1E831037E6EFDB606F7C0FA5341B1BD0 /* IHakulaInfrastructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 799A42841015162ACCC9414D052A14A2 /* IHakulaInfrastructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2615422DF5F2BD00CD8919C455BD4215 /* iHConf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A432F695BDD4286DD1602EEC22E2CDD /* iHConf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		409BD4D57A7404B4C15F1C99A862BC0B /* Pods-IHakulaInfrastructureTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4BBC9C7A2A2B8F73ED0BCBBC329C65 /* Pods-IHakulaInfrastructureTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FFC6AAF6ADDFB858AA01892D178C924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC89D1DC2092A744265C7924CF92F05 /* Foundation.framework */; };
+		552275384872E2818F46719F31AC8E28 /* iHCommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 791860752126FEDD044259A8FC534713 /* iHCommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C0D6323B572E8AE43004024B518D85 /* IHakulaInfrastructure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 426C4C20BC266FE038F88629B46CA1D0 /* IHakulaInfrastructure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A23642E8E0AE046C662DFB37BE1C1D11 /* iHCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = 60779BBF52D215E93E5844810E0A58DD /* iHCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AADDD10640935DFA4B3BC2C8F912C149 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365FEA1E7371883A9283FFEA9D8BFE6B /* UIKit.framework */; };
+		B0726CEF546471979B155C6895C89C3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC89D1DC2092A744265C7924CF92F05 /* Foundation.framework */; };
+		D2E4AAB187438B8926ADEE5C1E047C43 /* IHakulaInfrastructure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D281254E85043C8840C1722579BEB3E /* IHakulaInfrastructure-dummy.m */; };
+		D5B53370AD722D68E4C6E792D80C0B1E /* iHCommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8BE28EB66D1DD9ACC2ED1A7E2EC5C5 /* iHCommonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7CF49B65A7541FEF306C0D3E4A91F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387EAD47F28C1B8A3A96C9F1AD5F2392;
+			remoteInfo = IHakulaInfrastructure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7F36CC09F8A96A268868819D63D55A /* Pods-IHakulaInfrastructureTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IHakulaInfrastructureTesting.release.xcconfig"; sourceTree = "<group>"; };
+		12A50FE4CC7BA566A75ECA39F22DA2A6 /* Pods-IHakulaInfrastructureTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IHakulaInfrastructureTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		1B3E7EEA5FA33C31F99A74474A823E38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257391317A54B8455E86CC110633DF3C /* Pods-IHakulaInfrastructureTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IHakulaInfrastructureTesting-dummy.m"; sourceTree = "<group>"; };
+		365FEA1E7371883A9283FFEA9D8BFE6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A432F695BDD4286DD1602EEC22E2CDD /* iHConf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iHConf.h; path = IHakulaInfrastructure/IHakulaInfrastructure/iHConf.h; sourceTree = "<group>"; };
+		426C4C20BC266FE038F88629B46CA1D0 /* IHakulaInfrastructure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHakulaInfrastructure-umbrella.h"; sourceTree = "<group>"; };
+		4D04A2959BB8AB2569406B53ACCF59D0 /* Pods-IHakulaInfrastructureTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IHakulaInfrastructureTesting-frameworks.sh"; sourceTree = "<group>"; };
+		60779BBF52D215E93E5844810E0A58DD /* iHCommons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iHCommons.h; path = IHakulaInfrastructure/IHakulaInfrastructure/Common/iHCommons.h; sourceTree = "<group>"; };
+		68A9F86DCF6684C2DDCC3069E4A6FA9B /* IHakulaInfrastructure-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHakulaInfrastructure-prefix.pch"; sourceTree = "<group>"; };
+		690C59114B36C3A5F3F325DA8DCA8C65 /* iHCommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iHCommonFunctions.m; path = IHakulaInfrastructure/IHakulaInfrastructure/Common/iHCommonFunctions.m; sourceTree = "<group>"; };
+		6D6D7FAB00EDC71AAF44705CA6F566D2 /* IHakulaInfrastructure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IHakulaInfrastructure.modulemap; sourceTree = "<group>"; };
+		72A7497D1AECC667191730CC5A51BFC7 /* Pods-IHakulaInfrastructureTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IHakulaInfrastructureTesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		791860752126FEDD044259A8FC534713 /* iHCommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iHCommonFunctions.h; path = IHakulaInfrastructure/IHakulaInfrastructure/Common/iHCommonFunctions.h; sourceTree = "<group>"; };
+		799095F4B1403EF04CAC0FCB9867151D /* IHakulaInfrastructure.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHakulaInfrastructure.xcconfig; sourceTree = "<group>"; };
+		799A42841015162ACCC9414D052A14A2 /* IHakulaInfrastructure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IHakulaInfrastructure.h; path = IHakulaInfrastructure/IHakulaInfrastructure/IHakulaInfrastructure.h; sourceTree = "<group>"; };
+		7B711053D62A1F3C2DF444F17AEE7AD4 /* Pods_IHakulaInfrastructureTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IHakulaInfrastructureTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E221CD56867F8961D1F426A7650EC53 /* IHakulaInfrastructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IHakulaInfrastructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4BBC9C7A2A2B8F73ED0BCBBC329C65 /* Pods-IHakulaInfrastructureTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IHakulaInfrastructureTesting-umbrella.h"; sourceTree = "<group>"; };
+		9D0DB26BDC1C3E8A7DB797E1A69C0270 /* Pods-IHakulaInfrastructureTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IHakulaInfrastructureTesting.modulemap"; sourceTree = "<group>"; };
+		9D281254E85043C8840C1722579BEB3E /* IHakulaInfrastructure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHakulaInfrastructure-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAC89D1DC2092A744265C7924CF92F05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E385507CDB94AEC60C25EC75B4C4018D /* IHakulaInfrastructure-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IHakulaInfrastructure-Private.xcconfig"; sourceTree = "<group>"; };
+		E69F4F4471553334EB9AC6F5E6EEEF7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2D399B50CBDA9E578F716E5A670FFF /* Pods-IHakulaInfrastructureTesting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IHakulaInfrastructureTesting-resources.sh"; sourceTree = "<group>"; };
+		FA7C4CB14C6CACEB633E41BB5591680D /* Pods-IHakulaInfrastructureTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IHakulaInfrastructureTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA8BE28EB66D1DD9ACC2ED1A7E2EC5C5 /* iHCommonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iHCommonMacros.h; path = IHakulaInfrastructure/IHakulaInfrastructure/Common/iHCommonMacros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B3880C35D02ECAAC5BDA1DD6A23A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0726CEF546471979B155C6895C89C3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC42553E6E0C04C95C0F37607F13A722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFC6AAF6ADDFB858AA01892D178C924 /* Foundation.framework in Frameworks */,
+				AADDD10640935DFA4B3BC2C8F912C149 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E8459125E78EDAD85F7893BA2048BA /* Pods-IHakulaInfrastructureTesting */ = {
+			isa = PBXGroup;
+			children = (
+				1B3E7EEA5FA33C31F99A74474A823E38 /* Info.plist */,
+				9D0DB26BDC1C3E8A7DB797E1A69C0270 /* Pods-IHakulaInfrastructureTesting.modulemap */,
+				FA7C4CB14C6CACEB633E41BB5591680D /* Pods-IHakulaInfrastructureTesting-acknowledgements.markdown */,
+				72A7497D1AECC667191730CC5A51BFC7 /* Pods-IHakulaInfrastructureTesting-acknowledgements.plist */,
+				257391317A54B8455E86CC110633DF3C /* Pods-IHakulaInfrastructureTesting-dummy.m */,
+				4D04A2959BB8AB2569406B53ACCF59D0 /* Pods-IHakulaInfrastructureTesting-frameworks.sh */,
+				EA2D399B50CBDA9E578F716E5A670FFF /* Pods-IHakulaInfrastructureTesting-resources.sh */,
+				8B4BBC9C7A2A2B8F73ED0BCBBC329C65 /* Pods-IHakulaInfrastructureTesting-umbrella.h */,
+				12A50FE4CC7BA566A75ECA39F22DA2A6 /* Pods-IHakulaInfrastructureTesting.debug.xcconfig */,
+				0F7F36CC09F8A96A268868819D63D55A /* Pods-IHakulaInfrastructureTesting.release.xcconfig */,
+			);
+			name = "Pods-IHakulaInfrastructureTesting";
+			path = "Target Support Files/Pods-IHakulaInfrastructureTesting";
+			sourceTree = "<group>";
+		};
+		654F8AA117CA9B69D60300B09C8812BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E8459125E78EDAD85F7893BA2048BA /* Pods-IHakulaInfrastructureTesting */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9E5F71AF2F123720E4CF226003A91237 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				654F8AA117CA9B69D60300B09C8812BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5F71AF2F123720E4CF226003A91237 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E505ACEED451A01704DC30A0627C061F /* IHakulaInfrastructure */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E221CD56867F8961D1F426A7650EC53 /* IHakulaInfrastructure.framework */,
+				7B711053D62A1F3C2DF444F17AEE7AD4 /* Pods_IHakulaInfrastructureTesting.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BAC89D1DC2092A744265C7924CF92F05 /* Foundation.framework */,
+				365FEA1E7371883A9283FFEA9D8BFE6B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE467793CB7E2F017CA1E3018719D83F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				791860752126FEDD044259A8FC534713 /* iHCommonFunctions.h */,
+				690C59114B36C3A5F3F325DA8DCA8C65 /* iHCommonFunctions.m */,
+				FA8BE28EB66D1DD9ACC2ED1A7E2EC5C5 /* iHCommonMacros.h */,
+				60779BBF52D215E93E5844810E0A58DD /* iHCommons.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E505ACEED451A01704DC30A0627C061F /* IHakulaInfrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				799A42841015162ACCC9414D052A14A2 /* IHakulaInfrastructure.h */,
+				3A432F695BDD4286DD1602EEC22E2CDD /* iHConf.h */,
+				DE467793CB7E2F017CA1E3018719D83F /* Common */,
+				E6C949440AD542E0BDBACBA339C359CB /* Support Files */,
+			);
+			path = IHakulaInfrastructure;
+			sourceTree = "<group>";
+		};
+		E6C949440AD542E0BDBACBA339C359CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D6D7FAB00EDC71AAF44705CA6F566D2 /* IHakulaInfrastructure.modulemap */,
+				799095F4B1403EF04CAC0FCB9867151D /* IHakulaInfrastructure.xcconfig */,
+				E385507CDB94AEC60C25EC75B4C4018D /* IHakulaInfrastructure-Private.xcconfig */,
+				9D281254E85043C8840C1722579BEB3E /* IHakulaInfrastructure-dummy.m */,
+				68A9F86DCF6684C2DDCC3069E4A6FA9B /* IHakulaInfrastructure-prefix.pch */,
+				426C4C20BC266FE038F88629B46CA1D0 /* IHakulaInfrastructure-umbrella.h */,
+				E69F4F4471553334EB9AC6F5E6EEEF7D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHakulaInfrastructure";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6844755A4AA4B277DC35AE5897B9E383 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C0D6323B572E8AE43004024B518D85 /* IHakulaInfrastructure-umbrella.h in Headers */,
+				1E831037E6EFDB606F7C0FA5341B1BD0 /* IHakulaInfrastructure.h in Headers */,
+				552275384872E2818F46719F31AC8E28 /* iHCommonFunctions.h in Headers */,
+				D5B53370AD722D68E4C6E792D80C0B1E /* iHCommonMacros.h in Headers */,
+				A23642E8E0AE046C662DFB37BE1C1D11 /* iHCommons.h in Headers */,
+				2615422DF5F2BD00CD8919C455BD4215 /* iHConf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE951877D2DE94B0C6E5E41690606F04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409BD4D57A7404B4C15F1C99A862BC0B /* Pods-IHakulaInfrastructureTesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		387EAD47F28C1B8A3A96C9F1AD5F2392 /* IHakulaInfrastructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2B7398CDFEEFAA5746C57D81B9B85A /* Build configuration list for PBXNativeTarget "IHakulaInfrastructure" */;
+			buildPhases = (
+				60EC8CF3D1F6A9440D59DFE0C55D44D8 /* Sources */,
+				AC42553E6E0C04C95C0F37607F13A722 /* Frameworks */,
+				6844755A4AA4B277DC35AE5897B9E383 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHakulaInfrastructure;
+			productName = IHakulaInfrastructure;
+			productReference = 7E221CD56867F8961D1F426A7650EC53 /* IHakulaInfrastructure.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BA7FB542A00EA80874C94F92CA942EB /* Pods-IHakulaInfrastructureTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A6C7B71916784F3A580141FC22C093 /* Build configuration list for PBXNativeTarget "Pods-IHakulaInfrastructureTesting" */;
+			buildPhases = (
+				87F4BE3FE75B41CC93F028ABC81C0D80 /* Sources */,
+				81B3880C35D02ECAAC5BDA1DD6A23A36 /* Frameworks */,
+				FE951877D2DE94B0C6E5E41690606F04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054BB9B9E30AFF52B3A091681928C473 /* PBXTargetDependency */,
+			);
+			name = "Pods-IHakulaInfrastructureTesting";
+			productName = "Pods-IHakulaInfrastructureTesting";
+			productReference = 7B711053D62A1F3C2DF444F17AEE7AD4 /* Pods_IHakulaInfrastructureTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387EAD47F28C1B8A3A96C9F1AD5F2392 /* IHakulaInfrastructure */,
+				7BA7FB542A00EA80874C94F92CA942EB /* Pods-IHakulaInfrastructureTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EC8CF3D1F6A9440D59DFE0C55D44D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4AAB187438B8926ADEE5C1E047C43 /* IHakulaInfrastructure-dummy.m in Sources */,
+				04FC93D82CBBD927E4D291C532C6120E /* iHCommonFunctions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F4BE3FE75B41CC93F028ABC81C0D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DA1C5D8B82638D50CCA4E770CB57AF /* Pods-IHakulaInfrastructureTesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		054BB9B9E30AFF52B3A091681928C473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IHakulaInfrastructure;
+			target = 387EAD47F28C1B8A3A96C9F1AD5F2392 /* IHakulaInfrastructure */;
+			targetProxy = B7CF49B65A7541FEF306C0D3E4A91F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4844929E642A3469A55270CEF20CE861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E385507CDB94AEC60C25EC75B4C4018D /* IHakulaInfrastructure-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IHakulaInfrastructure/IHakulaInfrastructure-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHakulaInfrastructure/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IHakulaInfrastructure/IHakulaInfrastructure.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IHakulaInfrastructure;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51022DD0D726CE2B57A6F47BB844FE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7F36CC09F8A96A268868819D63D55A /* Pods-IHakulaInfrastructureTesting.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IHakulaInfrastructureTesting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-IHakulaInfrastructureTesting/Pods-IHakulaInfrastructureTesting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_IHakulaInfrastructureTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B980C620D100BD3F491B36CDDE07057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A50FE4CC7BA566A75ECA39F22DA2A6 /* Pods-IHakulaInfrastructureTesting.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IHakulaInfrastructureTesting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-IHakulaInfrastructureTesting/Pods-IHakulaInfrastructureTesting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_IHakulaInfrastructureTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9839EB54A14FBD82499E20A297FE2D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E385507CDB94AEC60C25EC75B4C4018D /* IHakulaInfrastructure-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IHakulaInfrastructure/IHakulaInfrastructure-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHakulaInfrastructure/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IHakulaInfrastructure/IHakulaInfrastructure.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IHakulaInfrastructure;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2B7398CDFEEFAA5746C57D81B9B85A /* Build configuration list for PBXNativeTarget "IHakulaInfrastructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9839EB54A14FBD82499E20A297FE2D1F /* Debug */,
+				4844929E642A3469A55270CEF20CE861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A6C7B71916784F3A580141FC22C093 /* Build configuration list for PBXNativeTarget "Pods-IHakulaInfrastructureTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B980C620D100BD3F491B36CDDE07057 /* Debug */,
+				51022DD0D726CE2B57A6F47BB844FE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

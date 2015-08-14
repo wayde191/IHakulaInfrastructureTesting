@@ -1,0 +1,6 @@
+framework module IHakulaInfrastructure {
+  umbrella header "IHakulaInfrastructure-umbrella.h"
+
+  export *
+  module * { export * }
+}
