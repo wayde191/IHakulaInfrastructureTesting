@@ -8,7 +8,7 @@ source 'https://github.com/wayde191/IHakulaSpecs.git'
 use_frameworks!
 
 target 'IHakulaInfrastructureTesting' do
-  pod 'IHakulaInfrastructure', '~> 0.1.0'
+    pod 'IHakulaInfrastructure', :path => '/Users/CNwwsun/iHakula/IHakulaInfrastructure'
 end
 
 target 'IHakulaInfrastructureTestingTests' do

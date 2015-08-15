@@ -1,12 +1,76 @@
 PODS:
-  - IHakulaInfrastructure (0.1.0):
-    - IHakulaInfrastructure/Common (= 0.1.0)
-  - IHakulaInfrastructure/Common (0.1.0)
+  - IHakulaInfrastructure (0.1.8):
+    - IHakulaInfrastructure/Additions (= 0.1.8)
+    - IHakulaInfrastructure/Common (= 0.1.8)
+    - IHakulaInfrastructure/DB (= 0.1.8)
+    - IHakulaInfrastructure/Kits (= 0.1.8)
+    - IHakulaInfrastructure/Tools (= 0.1.8)
+  - IHakulaInfrastructure/Additions (0.1.8)
+  - IHakulaInfrastructure/Common (0.1.8)
+  - IHakulaInfrastructure/DB (0.1.8):
+    - IHakulaInfrastructure/Additions
+    - IHakulaInfrastructure/Kits
+    - IHakulaInfrastructure/Tools/iHDebug
+    - IHakulaInfrastructure/Tools/iHNetworkMonitor
+    - IHakulaInfrastructure/Tools/iHSingletonCloud
+  - IHakulaInfrastructure/Kits (0.1.8):
+    - IHakulaInfrastructure/Tools/TouchJSON
+  - IHakulaInfrastructure/Tools (0.1.8):
+    - IHakulaInfrastructure/Tools/iHAlertView (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHDebug (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHEngine (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHFileManager (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHImageCompresser (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHLog (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHMemory (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHNetworkMonitor (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHPubSub (= 0.1.8)
+    - IHakulaInfrastructure/Tools/iHSingletonCloud (= 0.1.8)
+    - IHakulaInfrastructure/Tools/TouchJSON (= 0.1.8)
+    - IHakulaInfrastructure/Tools/XMLParser (= 0.1.8)
+  - IHakulaInfrastructure/Tools/iHAlertView (0.1.8)
+  - IHakulaInfrastructure/Tools/iHDebug (0.1.8)
+  - IHakulaInfrastructure/Tools/iHEngine (0.1.8):
+    - IHakulaInfrastructure/Common
+    - IHakulaInfrastructure/DB
+    - IHakulaInfrastructure/Kits
+    - IHakulaInfrastructure/Tools/iHLog
+    - IHakulaInfrastructure/Tools/iHNetworkMonitor
+    - IHakulaInfrastructure/Tools/iHSingletonCloud
+  - IHakulaInfrastructure/Tools/iHFileManager (0.1.8):
+    - IHakulaInfrastructure/Tools/iHDebug
+  - IHakulaInfrastructure/Tools/iHImageCompresser (0.1.8):
+    - IHakulaInfrastructure/Additions
+    - IHakulaInfrastructure/Tools/iHDebug
+  - IHakulaInfrastructure/Tools/iHLog (0.1.8):
+    - IHakulaInfrastructure/Common
+    - IHakulaInfrastructure/Kits
+    - IHakulaInfrastructure/Tools/iHDebug
+    - IHakulaInfrastructure/Tools/iHFileManager
+    - IHakulaInfrastructure/Tools/iHMemory
+    - IHakulaInfrastructure/Tools/iHSingletonCloud
+  - IHakulaInfrastructure/Tools/iHMemory (0.1.8)
+  - IHakulaInfrastructure/Tools/iHNetworkMonitor (0.1.8):
+    - IHakulaInfrastructure/Tools/iHDebug
+    - IHakulaInfrastructure/Tools/iHLog
+    - IHakulaInfrastructure/Tools/iHPubSub
+    - IHakulaInfrastructure/Tools/iHSingletonCloud
+  - IHakulaInfrastructure/Tools/iHPubSub (0.1.8):
+    - IHakulaInfrastructure/Tools/iHLog
+    - IHakulaInfrastructure/Tools/iHSingletonCloud
+  - IHakulaInfrastructure/Tools/iHSingletonCloud (0.1.8):
+    - IHakulaInfrastructure/Tools/iHDebug
+  - IHakulaInfrastructure/Tools/TouchJSON (0.1.8)
+  - IHakulaInfrastructure/Tools/XMLParser (0.1.8)
 
 DEPENDENCIES:
-  - IHakulaInfrastructure (~> 0.1.0)
+  - IHakulaInfrastructure (from `/Users/CNwwsun/iHakula/IHakulaInfrastructure`)
+
+EXTERNAL SOURCES:
+  IHakulaInfrastructure:
+    :path: "/Users/CNwwsun/iHakula/IHakulaInfrastructure"
 
 SPEC CHECKSUMS:
-  IHakulaInfrastructure: 01ce2f6c5d433fe6f921499f005a489b2f81d6ee
+  IHakulaInfrastructure: 8f1a33bb478b3f407f2838e35a7f7e5237ffa108
 
 COCOAPODS: 0.38.2
